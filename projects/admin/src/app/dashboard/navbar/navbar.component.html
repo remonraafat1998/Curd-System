@@ -1,0 +1,25 @@
+<header>
+  <div class="container">
+   <div class="nav-contain">
+    <!-- logo -->
+    <a href="#">Curd System</a>
+    <!-- nav area -->
+    <nav class="nav-area">
+      <!-- close button -->
+     <span class="close-nav"><fa-icon [icon]="faColse"></fa-icon></span>
+         <!-- nav links -->
+     <ul class="nav-links">
+      <li><a href="#">Tasks</a></li>
+      <li><a href="#">Users</a></li>
+     </ul>
+    </nav>
+    <!-- logout button -->
+    <button class="logout btn btn-danger" (click)="logout()">Logout</button>
+
+    <!-- open side nav -->
+    <span class="open-side" style="display: none;">
+      <fa-icon [icon]="faBars"></fa-icon>
+    </span>
+   </div>
+  </div>
+</header>

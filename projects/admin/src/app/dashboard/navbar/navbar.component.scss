@@ -1,0 +1,52 @@
+@media (max-width:600px)
+{
+  .close-nav
+  {
+    display: block;
+    visibility: visible;
+  }
+  .open-side
+  {
+    display: block;
+  }
+}
+
+header {
+  background: var(--mainColor);
+
+  .nav-contain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    .nav-area {
+      display: flex;
+     .close-nav
+     {
+      display: none;
+      visibility: hidden;
+      color: #fff;
+      font-size: 24px;
+      font-weight: bold;
+     }
+      ul.nav-links {
+        display: flex;
+        align-items: center;
+        gap: 0 30px;
+
+        li {
+          a {
+            color: #fff;
+
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+fa-icon{
+  color: #fff;
+}
